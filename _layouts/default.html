@@ -3,13 +3,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+    <!-- LinkedIn Badge Script -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
+        
+        <!-- LinkedIn Badge -->
+        <div class="linkedin-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal">
+            <!-- Paste your generated LinkedIn badge code here -->
+        </div>
     </header>
 
     <main>
@@ -21,4 +33,3 @@
     </footer>
 </body>
 </html>
-
