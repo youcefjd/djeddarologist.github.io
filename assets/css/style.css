@@ -1,17 +1,21 @@
 /* assets/css/style.css */
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #121212; /* Dark background color */
     color: #fff; /* Light text color */
 }
 
 header, footer {
-    background-color: #333; /* Dark header and footer background */
-    color: #fff;
+    background-color: #282c34; /* Dark header and footer background */
+    color: #61dafb; /* Blue accent color */
     text-align: center;
     padding: 1em;
+}
+
+h1, h2 {
+    color: #61dafb; /* Blue header text color */
 }
 
 main {
@@ -31,7 +35,7 @@ article {
 
 /* Styling for article titles */
 article h2 {
-    color: #4caf50; /* Green title color */
+    color: #61dafb; /* Blue title color */
 }
 
 /* Styling for article metadata */
@@ -42,4 +46,18 @@ article p {
 /* Styling for footer */
 footer p {
     color: #888; /* Gray footer text color */
+}
+
+/* Styling for LinkedIn badge */
+.linkedin-badge {
+    margin-top: 20px;
+}
+
+/* Additional futuristic styles */
+body, h1, h2 {
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: #ff9800; /* Orange hover color for links */
 }
