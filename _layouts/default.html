@@ -32,11 +32,6 @@
     </script>
 </head>
 <body>
-    <!-- LinkedIn Badge -->
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="youcefdjeddar" data-version="v1">
-        <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/youcefdjeddar?trk=profile-badge">Youcef Djeddar</a>
-    </div>
-
     <!-- Scroll-to-Top Banner -->
     <div id="scrollToTopBanner" class="scroll-to-top-banner" onclick="scrollToTop()">Youcef's Blog</div>
 
@@ -48,6 +43,15 @@
     <main>
         {{ content }}
     </main>
+
+    <!-- LinkedIn Badge -->
+    <div class="linkedin-badge-container">
+        <div class="linkedin-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="youcefdjeddar" data-version="v1">
+            <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/youcefdjeddar?trk=profile-badge">
+                <img src="path/to/linkedin-logo.png" alt="LinkedIn Logo" />
+            </a>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; {{ site.title }} {{ site.time | date: "%Y" }}</p>

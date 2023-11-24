@@ -49,17 +49,14 @@ footer p {
 }
 
 /* Styling for LinkedIn badge */
+.linkedin-badge-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .linkedin-badge {
     margin-top: 20px;
-}
-
-/* Additional futuristic styles */
-body, h1, h2 {
-    letter-spacing: 1px;
-}
-
-a:hover {
-    color: #ff9800; /* Orange hover color for links */
 }
 
 /* Styling for Scroll-to-Top Banner */
