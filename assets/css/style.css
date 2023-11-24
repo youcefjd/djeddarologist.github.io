@@ -3,10 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #333; /* Dark header and footer background */
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -17,6 +19,27 @@ main {
 }
 
 a {
-    color: #007bff;
+    color: #4caf50; /* Green link color */
 }
 
+/* Styling for article previews */
+article {
+    border-bottom: 1px solid #333;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+/* Styling for article titles */
+article h2 {
+    color: #4caf50; /* Green title color */
+}
+
+/* Styling for article metadata */
+article p {
+    color: #888; /* Gray metadata color */
+}
+
+/* Styling for footer */
+footer p {
+    color: #888; /* Gray footer text color */
+}
