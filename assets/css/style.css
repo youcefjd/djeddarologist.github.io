@@ -61,3 +61,22 @@ body, h1, h2 {
 a:hover {
     color: #ff9800; /* Orange hover color for links */
 }
+
+/* Styling for Scroll-to-Top Banner */
+.scroll-to-top-banner {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #61dafb; /* Blue banner background color */
+    color: #fff; /* White banner text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.scroll-to-top-banner:hover {
+    background-color: #4caf50; /* Green banner background color on hover */
+}
