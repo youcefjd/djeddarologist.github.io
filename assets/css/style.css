@@ -1,53 +1,3 @@
-/* assets/css/style.css */
-body {
-    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #121212; /* Dark background color */
-    color: #fff; /* Light text color */
-}
-
-header, footer {
-    background-color: #282c34; /* Dark header and footer background */
-    color: #61dafb; /* Blue accent color */
-    text-align: center;
-    padding: 1em;
-}
-
-h1, h2 {
-    color: #61dafb; /* Blue header text color */
-}
-
-main {
-    padding: 1em;
-}
-
-a {
-    color: #4caf50; /* Green link color */
-}
-
-/* Styling for article previews */
-article {
-    border-bottom: 1px solid #333;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-}
-
-/* Styling for article titles */
-article h2 {
-    color: #61dafb; /* Blue title color */
-}
-
-/* Styling for article metadata */
-article p {
-    color: #888; /* Gray metadata color */
-}
-
-/* Styling for footer */
-footer p {
-    color: #888; /* Gray footer text color */
-}
-
 /* Styling for Containers */
 .social-container {
     display: flex;
@@ -79,14 +29,67 @@ footer p {
     margin: 0 10px; /* Adjust the spacing between icons */
 }
 
+/* General Styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+    background-color: #f5f5f5; /* Light background color */
+}
 
-/* Styling for Scroll-to-Top Banner */
+header, footer {
+    background-color: #222; /* Dark header and footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1em;
+}
+
+h1, h2 {
+    color: #3498db; /* Blue header text color */
+}
+
+main {
+    padding: 1em;
+}
+
+a {
+    color: #3498db; /* Blue link color */
+}
+
+a:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+/* Styling for Article Previews */
+article {
+    border-bottom: 1px solid #ddd; /* Light border between articles */
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+/* Styling for Article Titles */
+article h2 {
+    color: #2c3e50; /* Dark title color */
+}
+
+/* Styling for Article Metadata */
+article p {
+    color: #888; /* Gray metadata color */
+}
+
+/* Styling for Footer */
+footer p {
+    color: #888; /* Gray footer text color */
+}
+
+/* Scroll-to-Top Banner Styling */
 .scroll-to-top-banner {
     display: none;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #61dafb; /* Blue banner background color */
+    background-color: #3498db; /* Blue banner background color */
     color: #fff; /* White banner text color */
     padding: 10px 20px;
     border-radius: 5px;
@@ -96,6 +99,5 @@ footer p {
 }
 
 .scroll-to-top-banner:hover {
-    background-color: #4caf50; /* Green banner background color on hover */
+    background-color: #2980b9; /* Darker blue on hover */
 }
-
