@@ -48,16 +48,37 @@ footer p {
     color: #888; /* Gray footer text color */
 }
 
-/* Styling for LinkedIn badge */
-.linkedin-badge-container {
+/* Styling for Containers */
+.social-container {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
+/* Styling for LinkedIn badge */
+.linkedin-badge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically in the center */
+    margin-right: 20px; /* Adjust the spacing between LinkedIn Badge and Icons */
+}
+
 .linkedin-badge {
     margin-top: 20px;
 }
+
+/* Styling for Additional Icons */
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin: 0 10px; /* Adjust the spacing between icons */
+}
+
 
 /* Styling for Scroll-to-Top Banner */
 .scroll-to-top-banner {
@@ -77,3 +98,4 @@ footer p {
 .scroll-to-top-banner:hover {
     background-color: #4caf50; /* Green banner background color on hover */
 }
+
