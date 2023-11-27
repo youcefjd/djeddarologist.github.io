@@ -5,23 +5,33 @@ body, h1, h2, h3, p, div, span {
 }
 
 /* Styling for Containers */
-.social-container {
+.header-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2b2b2b; /* Darker background color */
-    padding: 10px 0; /* Adjust the padding as needed */
+    padding: 10px;
     border-bottom: 2px solid #4a525a; /* Metallic border between header and main */
 }
 
-/* Styling for Additional Icons in the Footer */
+.title-description {
+    text-align: center;
+    margin: 0;
+}
+
 .footer-icons {
     display: flex;
     justify-content: center;
     background-color: #2b2b2b; /* Darker background color */
-    padding: 10px 0; /* Adjust the padding as needed */
+    padding: 10px; /* Adjust the padding as needed */
     border-top: 2px solid #4a525a; /* Metallic border between footer and main */
 }
 
+.footer-icons a {
+    margin: 0 10px;
+}
+
+/* Styling for Additional Icons */
 .icon-container {
     display: flex;
     align-items: center;
@@ -35,29 +45,11 @@ body, h1, h2, h3, p, div, span {
 
 /* General Styling */
 body {
-    font-family: 'Playfair Display', serif; /* Playfair Display font */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
     font-size: 16px; /* Standard font size */
     line-height: 1.6;
     color: #c0c0c0; /* Silver text color for dark mode */
     background-color: #1c1c1c; /* Dark background color */
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000; /* Ensure the header is on top of other elements */
-    background-color: #2b2b2b; /* Darker header background in metallic theme */
-    color: #c0c0c0; /* Silver text color */
-    text-align: center;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1, h2 {
-    color: #c0c0c0; /* Silver header text color */
 }
 
 main {
@@ -105,31 +97,6 @@ footer {
 .footer-links {
     display: flex;
     justify-content: center;
-}
-
-.footer-links a {
-    color: #c0c0c0;
-    margin: 0 10px;
-}
-
-.footer-links a:hover {
-    color: #4d94ff;
-}
-
-
-/* Styling for Containers */
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    background-color: #2b2b2b; /* Darker background color */
-    padding: 10px 0; /* Adjust the padding as needed */
-    border-top: 2px solid #4a525a; /* Metallic border between footer and main */
 }
 
 .footer-links a {
