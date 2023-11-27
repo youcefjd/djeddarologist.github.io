@@ -10,9 +10,18 @@ body, h1, h2, h3, p, div, span {
     justify-content: center;
     background-color: #292c31; /* Dark background color */
     padding: 10px 0; /* Adjust the padding as needed */
+    border-bottom: 2px solid #394247; /* Modern border between header and main */
 }
 
-/* Styling for Additional Icons */
+/* Styling for Additional Icons in the Footer */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    background-color: #292c31; /* Dark background color */
+    padding: 10px 0; /* Adjust the padding as needed */
+    border-top: 2px solid #394247; /* Modern border between footer and main */
+}
+
 .icon-container {
     display: flex;
     align-items: center;
@@ -33,11 +42,18 @@ body {
     background-color: #1c1e22; /* Dark background color */
 }
 
-header, footer {
-    background-color: #292c31; /* Dark header and footer background in LinkedIn dark mode */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure the header is on top of other elements */
+    background-color: #292c31; /* Dark header background in LinkedIn dark mode */
     color: #fff; /* White text color */
     text-align: center;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1, h2 {
@@ -45,7 +61,7 @@ h1, h2 {
 }
 
 main {
-    padding: 1em;
+    padding: 4em 1em 1em 1em; /* Adjust the padding for content */
 }
 
 a {
