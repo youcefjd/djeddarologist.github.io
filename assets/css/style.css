@@ -19,19 +19,6 @@ body, h1, h2, h3, p, div, span {
     margin: 0;
 }
 
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    background-color: #2b2b2b; /* Darker background color */
-    padding: 10px; /* Adjust the padding as needed */
-    border-top: 2px solid #4a525a; /* Metallic border between footer and main */
-}
-
-.footer-icons a {
-    margin: 0 10px;
-}
-
-/* Styling for Additional Icons */
 .icon-container {
     display: flex;
     align-items: center;
@@ -86,10 +73,10 @@ a {
     text-decoration: none;
 }
 
-/* Styling for Footer */
-footer {
-    background-color: #2b2b2b; /* Darker footer background */
-    color: #c0c0c0; /* Silver text color */
+/* Styling for Footer (removed) */
+/* footer {
+    background-color: #2b2b2b; / * Darker footer background * /
+    color: #c0c0c0; / * Silver text color * /
     text-align: center;
     padding: 1em;
 }
@@ -106,4 +93,4 @@ footer {
 
 .footer-links a:hover {
     color: #4d94ff;
-}
+} */
