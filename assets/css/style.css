@@ -1,8 +1,15 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, div, span {
+    margin: 0;
+    padding: 0;
+}
+
 /* Styling for Containers */
 .social-container {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    background-color: #292c31; /* Dark background color */
+    padding: 10px 0; /* Adjust the padding as needed */
 }
 
 /* Styling for Additional Icons */
@@ -19,8 +26,8 @@
 
 /* General Styling */
 body {
-    font-family: 'Georgia', 'Times New Roman', Times, serif; /* Serif font for a more classic look */
-    font-size: 18px; /* Larger font size for better readability */
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+    font-size: 16px; /* Standard font size */
     line-height: 1.6;
     color: #fff; /* Light text color for dark mode */
     background-color: #1c1e22; /* Dark background color */
@@ -66,7 +73,29 @@ article p {
     color: #ccc; /* Light gray metadata color */
 }
 
+/* Remove default underlines from links */
+a {
+    text-decoration: none;
+}
+
 /* Styling for Footer */
-footer p {
-    color: #ccc; /* Light gray footer text color */
+footer {
+    background-color: #292c31; /* Dark footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1em;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #0077b5;
 }

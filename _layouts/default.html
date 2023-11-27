@@ -6,45 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-
-    <!-- LinkedIn Badge Script -->
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
     <!-- Roboto Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Scroll-to-Top Banner Script -->
-    <script>
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scrollToTopBanner").style.display = "block";
-            } else {
-                document.getElementById("scrollToTopBanner").style.display = "none";
-            }
-        }
-
-        function scrollToTop() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-        }
-    </script>
 </head>
 <body>
-    <!-- Scroll-to-Top Banner -->
-    <div id="scrollToTopBanner" class="scroll-to-top-banner" onclick="scrollToTop()">Youcef's Blog</div>
-
-    <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-    </header>
-
-    <main>
-        {{ content }}
-    </main>
-
- <!-- Containers for LinkedIn Badge and Icons -->
+    <!-- Containers for Icons -->
     <div class="social-container">
         <!-- LinkedIn Icon -->
         <div class="icon-container">
@@ -68,11 +34,27 @@
         </div>
     </div>
 
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
 
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- Social Media Links in the Footer -->
     <footer>
-        <p>&copy; {{ site.title }} {{ site.time | date: "%Y" }}</p>
+        <div class="footer-links">
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/youcefdjeddar" target="_blank">LinkedIn</a>
+            
+            <!-- GitHub Link -->
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            
+            <!-- Email Link -->
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
     </footer>
 </body>
 </html>
-
-
