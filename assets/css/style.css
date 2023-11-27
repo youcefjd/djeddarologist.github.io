@@ -8,18 +8,18 @@ body, h1, h2, h3, p, div, span {
 .social-container {
     display: flex;
     justify-content: center;
-    background-color: #292c31; /* Dark background color */
+    background-color: #394247; /* Darker background color */
     padding: 10px 0; /* Adjust the padding as needed */
-    border-bottom: 2px solid #394247; /* Modern border between header and main */
+    border-bottom: 2px solid #4a525a; /* Modern border between header and main */
 }
 
 /* Styling for Additional Icons in the Footer */
 .footer-icons {
     display: flex;
     justify-content: center;
-    background-color: #292c31; /* Dark background color */
+    background-color: #394247; /* Darker background color */
     padding: 10px 0; /* Adjust the padding as needed */
-    border-top: 2px solid #394247; /* Modern border between footer and main */
+    border-top: 2px solid #4a525a; /* Modern border between footer and main */
 }
 
 .icon-container {
@@ -47,7 +47,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000; /* Ensure the header is on top of other elements */
-    background-color: #292c31; /* Dark header background in LinkedIn dark mode */
+    background-color: #394247; /* Darker header background in LinkedIn dark mode */
     color: #fff; /* White text color */
     text-align: center;
     padding: 1em;
@@ -96,7 +96,7 @@ a {
 
 /* Styling for Footer */
 footer {
-    background-color: #292c31; /* Dark footer background */
+    background-color: #394247; /* Darker footer background */
     color: #fff; /* White text color */
     text-align: center;
     padding: 1em;
