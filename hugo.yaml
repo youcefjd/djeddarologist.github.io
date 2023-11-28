@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Ahead of Tech
+theme: PaperMod
+
+params:
+  defaultTheme: dark
+  homeInfoParams:
+    Title: "Ahead of Tech 👋"
+    Content: >-
+      Welcome to my blog.
+  socialIcons:
+    - name: email
+      url: 'mailto:djeddar@icloud.com'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/youcefjd'
+    - name: github
+      url: 'https://github.com/youcefjd'
+assets:
+  favicon16x16: /assets/favicon-16x16.png
+  favicon32x32: /assets/favicon-32x32.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+
+menu:
+  main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+  - identifier: posts
+    name: Blog
+    url: /posts/
+    weight: 20
