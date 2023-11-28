@@ -2,6 +2,8 @@ baseURL: https://youcefjd.github.io/
 languageCode: en-us
 title: Ahead of Tech
 theme: PaperMod
+canonifyurls: true
+relativeURLs: false
 
 params:
   defaultTheme: dark
